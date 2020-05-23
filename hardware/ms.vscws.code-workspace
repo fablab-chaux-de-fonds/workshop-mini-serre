@@ -1,0 +1,54 @@
+{
+	"folders": [
+		{
+			"path": "/home/ioknox/Documents/PlatformIO/Projects/test-esp-serre"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"*.p": "xml",
+			"*.ra": "xml",
+			"*.rs": "xml",
+			"*.tcc": "cpp",
+			"random": "cpp",
+			"limits": "cpp",
+			"functional": "cpp",
+			"type_traits": "cpp",
+			"array": "cpp",
+			"deque": "cpp",
+			"list": "cpp",
+			"string": "cpp",
+			"unordered_map": "cpp",
+			"vector": "cpp",
+			"memory": "cpp",
+			"initializer_list": "cpp",
+			"sstream": "cpp",
+			"regex": "cpp",
+			"typeinfo": "cpp",
+			"bitset": "cpp",
+			"atomic": "cpp",
+			"cctype": "cpp",
+			"clocale": "cpp",
+			"cmath": "cpp",
+			"cstdarg": "cpp",
+			"cstdint": "cpp",
+			"cstdio": "cpp",
+			"cstdlib": "cpp",
+			"ctime": "cpp",
+			"cwchar": "cpp",
+			"cwctype": "cpp",
+			"exception": "cpp",
+			"fstream": "cpp",
+			"iosfwd": "cpp",
+			"istream": "cpp",
+			"new": "cpp",
+			"ostream": "cpp",
+			"numeric": "cpp",
+			"stdexcept": "cpp",
+			"streambuf": "cpp",
+			"cinttypes": "cpp",
+			"tuple": "cpp",
+			"utility": "cpp"
+		}
+	}
+}

@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name mini-serre-rescue)(type Legacy)(uri ${KIPRJMOD}/mini-serre-rescue.lib)(options "")(descr ""))
+  (lib (name ESP8266)(type Legacy)(uri /home/ioknox/.kicad/libraries/kicad-ESP8266/ESP8266.lib)(options "")(descr ""))
+  (lib (name MAX11603EEE+)(type Legacy)(uri /home/ioknox/.kicad/libraries/mouser/MAX11603EEE+.lib)(options "")(descr ""))
+  (lib (name P7370-33WW)(type Legacy)(uri /home/ioknox/.kicad/libraries/mouser/AP7370-33WW-7.lib)(options "")(descr ""))
+  (lib (name mini-serre)(type Legacy)(uri ${KIPRJMOD}/mini-serre.lib)(options "")(descr ""))
+)

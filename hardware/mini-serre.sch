@@ -513,10 +513,10 @@ F 3 "https://www.mouser.ch/datasheet/2/389/vnn3nv04p-e-957619.pdf" H 9750 2500 5
 	1    0    0    -1  
 $EndComp
 $Comp
-L mini-serre-rescue:R-Device R4
+L mini-serre-rescue:R-Device R1
 U 1 1 5E6C97A0
 P 9100 2650
-F 0 "R4" V 8893 2650 50  0000 C CNN
+F 0 "R1" V 8893 2650 50  0000 C CNN
 F 1 "220" V 8984 2650 50  0000 C CNN
 F 2 "Resistor_SMD:R_1210_3225Metric_Pad1.42x2.65mm_HandSolder" V 9030 2650 50  0001 C CNN
 F 3 "~" H 9100 2650 50  0001 C CNN
@@ -567,10 +567,10 @@ F 3 "https://www.mouser.ch/datasheet/2/389/vnn3nv04p-e-957619.pdf" H 7450 3450 5
 	1    0    0    -1  
 $EndComp
 $Comp
-L mini-serre-rescue:R-Device R5
+L mini-serre-rescue:R-Device R3
 U 1 1 5E7F839A
 P 6800 3600
-F 0 "R5" V 6593 3600 50  0000 C CNN
+F 0 "R3" V 6593 3600 50  0000 C CNN
 F 1 "220" V 6684 3600 50  0000 C CNN
 F 2 "Resistor_SMD:R_1210_3225Metric_Pad1.42x2.65mm_HandSolder" V 6730 3600 50  0001 C CNN
 F 3 "~" H 6800 3600 50  0001 C CNN
@@ -604,10 +604,10 @@ F 3 "https://www.mouser.ch/datasheet/2/389/vnn3nv04p-e-957619.pdf" H 9750 3400 5
 	1    0    0    -1  
 $EndComp
 $Comp
-L mini-serre-rescue:R-Device R3
+L mini-serre-rescue:R-Device R2
 U 1 1 5E83B7A0
 P 9100 3550
-F 0 "R3" V 8893 3550 50  0000 C CNN
+F 0 "R2" V 8893 3550 50  0000 C CNN
 F 1 "220" V 8984 3550 50  0000 C CNN
 F 2 "Resistor_SMD:R_1210_3225Metric_Pad1.42x2.65mm_HandSolder" V 9030 3550 50  0001 C CNN
 F 3 "~" H 9100 3550 50  0001 C CNN
@@ -946,13 +946,13 @@ F 3 "~" H 5850 2750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L mini-serre-rescue:D_Schottky-Device D1
+L mini-serre-rescue:D_Schottky-Device D4
 U 1 1 5E954EFD
 P 6850 2300
-F 0 "D1" H 6850 2084 50  0000 C CNN
-F 1 "D" H 6850 2175 50  0000 C CNN
-F 2 "" H 6850 2300 50  0001 C CNN
-F 3 "~" H 6850 2300 50  0001 C CNN
+F 0 "D4" H 6850 2084 50  0000 C CNN
+F 1 "D_SHOTTKY" H 6850 2175 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 6850 2300 50  0001 C CNN
+F 3 "https://shop.boxtec.ch/pub/diverse/ds30217.pdf" H 6850 2300 50  0001 C CNN
 	1    6850 2300
 	1    0    0    -1  
 $EndComp
@@ -970,10 +970,10 @@ Connection ~ 7050 2300
 Wire Wire Line
 	6400 2300 6700 2300
 $Comp
-L Regulator_Switching:AP65111AWU U?
+L Regulator_Switching:AP65111AWU U2
 U 1 1 5EACE685
 P 8250 4950
-F 0 "U?" H 8250 5317 50  0000 C CNN
+F 0 "U2" H 8250 5317 50  0000 C CNN
 F 1 "AP65111AWU" H 8250 5226 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:TSOT-23-6" H 8250 4050 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/AP65111A.pdf" H 8250 4950 50  0001 C CNN
@@ -986,8 +986,9 @@ U 1 1 5EAD16C2
 P 9200 4800
 F 0 "L1" V 9390 4800 50  0000 C CNN
 F 1 "6.5uH" V 9299 4800 50  0000 C CNN
-F 2 "" H 9200 4800 50  0001 C CNN
-F 3 "~" H 9200 4800 50  0001 C CNN
+F 2 "Inductor_SMD:L_Taiyo-Yuden_NR-10050_9.8x10.0mm_HandSoldering" H 9200 4800 50  0001 C CNN
+F 3 "https://www.mouser.ch/datasheet/2/396/wound06_e-1313806.pdf" H 9200 4800 50  0001 C CNN
+F 4 "963-NR10050T6R5N" V 9200 4800 50  0001 C CNN "Mouser"
 	1    9200 4800
 	0    -1   -1   0   
 $EndComp
@@ -997,10 +998,10 @@ U 1 1 5EAD21B4
 P 8800 4950
 F 0 "C2" V 9052 4950 50  0000 C CNN
 F 1 "1uF" V 8961 4950 50  0000 C CNN
-F 2 "" H 8838 4800 50  0001 C CNN
-F 3 "~" H 8800 4950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 8838 4800 50  0001 C CNN
+F 3 "https://www.mouser.ch/datasheet/2/212/KEM_C1006_X5R_SMD-1103249.pdf" H 8800 4950 50  0001 C CNN
 	1    8800 4950
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Device:C C3
@@ -1008,8 +1009,8 @@ U 1 1 5EAD3240
 P 9800 5100
 F 0 "C3" H 9915 5146 50  0000 L CNN
 F 1 "22uF" H 9915 5055 50  0000 L CNN
-F 2 "" H 9838 4950 50  0001 C CNN
-F 3 "~" H 9800 5100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 9838 4950 50  0001 C CNN
+F 3 "https://www.mouser.ch/datasheet/2/212/KEM_C1006_X5R_SMD-1103249.pdf" H 9800 5100 50  0001 C CNN
 	1    9800 5100
 	1    0    0    -1  
 $EndComp
@@ -1019,41 +1020,44 @@ U 1 1 5EAD4E49
 P 7450 5150
 F 0 "C1" H 7565 5196 50  0000 L CNN
 F 1 "22uF" H 7565 5105 50  0000 L CNN
-F 2 "" H 7488 5000 50  0001 C CNN
-F 3 "~" H 7450 5150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 7488 5000 50  0001 C CNN
+F 3 "https://www.mouser.ch/datasheet/2/212/KEM_C1006_X5R_SMD-1103249.pdf" H 7450 5150 50  0001 C CNN
 	1    7450 5150
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R16
 U 1 1 5EAD77D8
 P 9400 4950
-F 0 "R?" H 9470 4996 50  0000 L CNN
+F 0 "R16" H 9470 4996 50  0000 L CNN
 F 1 "40.2k" H 9470 4905 50  0000 L CNN
-F 2 "" V 9330 4950 50  0001 C CNN
-F 3 "~" H 9400 4950 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9330 4950 50  0001 C CNN
+F 3 "https://www.mouser.ch/datasheet/2/54/chpreztr-777398.pdf" H 9400 4950 50  0001 C CNN
+F 4 "652-CR1206FX-4022ELF " H 9400 4950 50  0001 C CNN "Mouser"
 	1    9400 4950
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R15
 U 1 1 5EAD830B
 P 9200 5150
-F 0 "R?" V 8993 5150 50  0000 C CNN
+F 0 "R15" V 8993 5150 50  0000 C CNN
 F 1 "59k" V 9084 5150 50  0000 C CNN
-F 2 "" V 9130 5150 50  0001 C CNN
-F 3 "~" H 9200 5150 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9130 5150 50  0001 C CNN
+F 3 "https://www.mouser.ch/datasheet/2/315/AOA0000C304-1149620.pdf" H 9200 5150 50  0001 C CNN
+F 4 "667-ERJ-8ENF5902V" V 9200 5150 50  0001 C CNN "Mouser"
 	1    9200 5150
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R17
 U 1 1 5EAD8B39
 P 9400 5350
-F 0 "R?" H 9470 5396 50  0000 L CNN
+F 0 "R17" H 9470 5396 50  0000 L CNN
 F 1 "13k" H 9470 5305 50  0000 L CNN
-F 2 "" V 9330 5350 50  0001 C CNN
-F 3 "~" H 9400 5350 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9330 5350 50  0001 C CNN
+F 3 "https://www.mouser.ch/datasheet/2/315/AOA0000C304-1149620.pdf" H 9400 5350 50  0001 C CNN
+F 4 "667-ERJ-8ENF1302V " H 9400 5350 50  0001 C CNN "Mouser"
 	1    9400 5350
 	1    0    0    -1  
 $EndComp
@@ -1061,8 +1065,6 @@ Wire Wire Line
 	8650 4850 8700 4850
 Wire Wire Line
 	8700 4850 8700 4800
-Wire Wire Line
-	8700 4800 8950 4800
 Wire Wire Line
 	8950 4950 8950 4800
 Connection ~ 8950 4800
@@ -1126,35 +1128,38 @@ Wire Wire Line
 	7100 4850 7200 4850
 Connection ~ 7200 4850
 $Comp
-L Device:D_Zener D?
+L Device:D_Zener D1
 U 1 1 5F04AB6D
 P 9250 1350
-F 0 "D?" H 9250 1567 50  0000 C CNN
+F 0 "D1" H 9250 1567 50  0000 C CNN
 F 1 "D_Zener" H 9250 1476 50  0000 C CNN
-F 2 "" H 9250 1350 50  0001 C CNN
-F 3 "~" H 9250 1350 50  0001 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 9250 1350 50  0001 C CNN
+F 3 "https://www.mouser.ch/datasheet/2/427/bzg05c-m-series-1767829.pdf" H 9250 1350 50  0001 C CNN
+F 4 "78-BZG05C5V6-M3-08 " H 9250 1350 50  0001 C CNN "Mouser"
 	1    9250 1350
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Zener D?
+L Device:D_Zener D2
 U 1 1 5F04F779
 P 9250 1700
-F 0 "D?" H 9250 1917 50  0000 C CNN
+F 0 "D2" H 9250 1917 50  0000 C CNN
 F 1 "D_Zener" H 9250 1826 50  0000 C CNN
-F 2 "" H 9250 1700 50  0001 C CNN
-F 3 "~" H 9250 1700 50  0001 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 9250 1700 50  0001 C CNN
+F 3 "https://www.mouser.ch/datasheet/2/427/bzg05c-m-series-1767829.pdf" H 9250 1700 50  0001 C CNN
+F 4 "78-BZG05C5V6-M3-08" H 9250 1700 50  0001 C CNN "Mouser"
 	1    9250 1700
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Zener D?
+L Device:D_Zener D3
 U 1 1 5F051B47
 P 9250 2050
-F 0 "D?" H 9250 2267 50  0000 C CNN
+F 0 "D3" H 9250 2267 50  0000 C CNN
 F 1 "D_Zener" H 9250 2176 50  0000 C CNN
-F 2 "" H 9250 2050 50  0001 C CNN
-F 3 "~" H 9250 2050 50  0001 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 9250 2050 50  0001 C CNN
+F 3 "https://www.mouser.ch/datasheet/2/427/bzg05c-m-series-1767829.pdf" H 9250 2050 50  0001 C CNN
+F 4 "78-BZG05C5V6-M3-08 " H 9250 2050 50  0001 C CNN "Mouser"
 	1    9250 2050
 	1    0    0    -1  
 $EndComp
@@ -1194,84 +1199,17 @@ Wire Wire Line
 	9400 1350 9500 1350
 Wire Wire Line
 	9400 2050 9500 2050
-Text GLabel 10750 2400 2    50   Input ~ 0
-12V
-$Comp
-L Device:R R?
-U 1 1 5F1FE892
-P 10500 2400
-F 0 "R?" V 10293 2400 50  0000 C CNN
-F 1 "1k2" V 10384 2400 50  0000 C CNN
-F 2 "" V 10430 2400 50  0001 C CNN
-F 3 "~" H 10500 2400 50  0001 C CNN
-	1    10500 2400
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	10750 2400 10650 2400
 Wire Wire Line
 	10300 2600 10400 2600
-Wire Wire Line
-	10350 2400 10300 2400
-Wire Wire Line
-	10300 2400 10300 2600
-Connection ~ 10300 2600
-Text GLabel 10800 3350 2    50   Input ~ 0
-12V
 $Comp
-L Device:R R?
-U 1 1 5F3022D6
-P 10550 3350
-F 0 "R?" V 10343 3350 50  0000 C CNN
-F 1 "1k2" V 10434 3350 50  0000 C CNN
-F 2 "" V 10480 3350 50  0001 C CNN
-F 3 "~" H 10550 3350 50  0001 C CNN
-	1    10550 3350
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	10800 3350 10700 3350
-Wire Wire Line
-	10400 3350 10350 3350
-Text GLabel 8500 3350 2    50   Input ~ 0
-12V
-$Comp
-L Device:R R?
-U 1 1 5F312FB8
-P 8250 3350
-F 0 "R?" V 8043 3350 50  0000 C CNN
-F 1 "1k2" V 8134 3350 50  0000 C CNN
-F 2 "" V 8180 3350 50  0001 C CNN
-F 3 "~" H 8250 3350 50  0001 C CNN
-	1    8250 3350
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8500 3350 8400 3350
-Wire Wire Line
-	8100 3350 8050 3350
-Wire Wire Line
-	8100 3550 8050 3550
-Wire Wire Line
-	8050 3350 8050 3550
-Connection ~ 8050 3550
-Wire Wire Line
-	8050 3550 8000 3550
-Wire Wire Line
-	10350 3350 10350 3500
-Wire Wire Line
-	10350 3500 10300 3500
-Wire Wire Line
-	10350 3500 10400 3500
-Connection ~ 10350 3500
-$Comp
-L Device:R R?
+L Device:R R14
 U 1 1 5EBC3512
 P 7700 5000
-F 0 "R?" H 7770 5046 50  0000 L CNN
-F 1 "R" H 7770 4955 50  0000 L CNN
-F 2 "" V 7630 5000 50  0001 C CNN
-F 3 "~" H 7700 5000 50  0001 C CNN
+F 0 "R14" H 7770 5046 50  0000 L CNN
+F 1 "100k" H 7770 4955 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 7630 5000 50  0001 C CNN
+F 3 "https://www.mouser.ch/datasheet/2/427/crcwce3-1762584.pdf" H 7700 5000 50  0001 C CNN
+F 4 "71-CRCW1206100KFKEAC" H 7700 5000 50  0001 C CNN "Mouser"
 	1    7700 5000
 	1    0    0    -1  
 $EndComp
@@ -1282,4 +1220,10 @@ Wire Wire Line
 	7700 5150 7850 5150
 Wire Wire Line
 	7850 5150 7850 5050
+Wire Wire Line
+	8700 4800 8950 4800
+Wire Wire Line
+	8000 3550 8100 3550
+Wire Wire Line
+	10300 3500 10400 3500
 $EndSCHEMATC

@@ -30,6 +30,7 @@ class Settings
     String passphrase;
     String path;
     String ntp;
+    u8 lightSensorIndex;
     void begin(const String &path);
     void reset();
     bool read();

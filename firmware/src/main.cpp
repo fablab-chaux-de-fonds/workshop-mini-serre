@@ -51,6 +51,7 @@ Hardware hw;
 Settings set;
 
 u8 state = 0;
+
 static void trigger(int arg)
 {
     hw.am2320.update();
@@ -92,7 +93,7 @@ void setup() {
 
     // Setup AM2320 i2c device and link with sensors.
     Serial.println(" ~ Setup am2320 device");
-    hw.am2320.begin(sen.airTemperature, sen.airHumidity);
+    hw.am2320.begin(); //sen.airTemperature, sen.airHumidity
 
     // Setup analog multiplexed values and link to sensors.
     Serial.println(" ~ Setup analog multiplexer device");
@@ -130,8 +131,6 @@ void setup() {
     Serial.println(" ~ Configure build-in LED manager");
     mgr.btn.begin(hw.btn, hw.boardLed);
 }
-
-u8 state = 0;
 
 void loop() {
 
